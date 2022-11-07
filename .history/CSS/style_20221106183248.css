@@ -1,0 +1,35 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.encabezado {
+    border-top: solid 15px rgb(36, 60, 178);
+    border-bottom: solid 15px rgb(36, 60, 178);
+}
+
+/* SLIDES */
+.img-fluid {
+    max-height: 39rem;
+    height: 300px;
+    object-fit: cover;
+}
+@media only screen and (max-width:768px) {
+    section {
+        font-size: 10px !important;
+    }
+    h1 {
+        font-size: 10rem !important;
+    }
+    p {
+        font-size: 4rem !important;
+    }
+
+}
+
+.navbar-toggler-icon {
+    height: 20px;
+    width: 20px;
+}

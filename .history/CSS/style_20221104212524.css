@@ -1,0 +1,9 @@
+
+.encabezado {
+    border-top: solid 20px coral;
+}
+
+.navbar-toggler-icon {
+    height: 20px;
+    width: 20px;
+}

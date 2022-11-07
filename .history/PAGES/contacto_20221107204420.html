@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2da Pre Entrega</title>
+    <!-- ICON Web -->
+    <link rel="shortcut icon" href="IMG/logo_site.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link href="css/hover-min.css" rel="stylesheet">
+</head>
+
+<body class="container-fluid">
+    <!-- NAVBAR -->
+    <header class="encabezado">
+        <nav class="navbar navbar-dark bg-dark p-3">
+            <div class="container-fluid">
+                <a class="navbar-brand hvr-grow" href="/index.html">Consultora <label for="NP"
+                        style="font-weight:bolder">NP</label></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/PAGES/sobrenosotros.html">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="/PAGES/servicios.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="/PAGES/SUB_PAGES/com_inst.html">Comunicacion
+                                            Institucional</a></li>
+                                    <li><a class="dropdown-item" href="/PAGES/SUB_PAGES/branding.html">Branding</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="/PAGES/SUB_PAGES/consultoria.html">Consultoria</a></li>
+                                    <li><a class="dropdown-item" href="/PAGES/SUB_PAGES/com_politica.html">Comunicacion
+                                            Politica</a></li>
+                                    <li><a class="dropdown-item" href="/PAGES/SUB_PAGES/ident_dig.html">Identidad
+                                            Digital</a></li>
+                                    <li><a class="dropdown-item" href="/PAGES/SUB_PAGES/prensa.html">Prensa</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/PAGES/blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="email" placeholder="Correo Electronico"
+                                aria-label="email">
+                            <button class="btn btn-primary btn-primary-outline-success"
+                                type="button">Suscribete</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SLIDES -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="/IMG/slide1.jpeg" class="d-block w-100 img-fluid" alt="slide1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="/IMG/slide2.jpeg" class="d-block w-100 img-fluid" alt="slide2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="/IMG/slide3.jpeg" class="d-block w-100 img-fluid" alt="slide3">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- CONTACTO -->
+
+    <div class="container p-3 border-top border-4">
+        <div class="text-center mb-4 pt-4">
+            <div><img src="/IMG/soporte.png" alt="soporte" class="img-thumbnail"></div>
+            <h2 class="pt-2">Contacto</h2>
+            <p class="fs-5">Establece una relación estratégica con tu cliente en el acompañamiento de lo importante.</p>
+        </div>
+        <form action="">
+            <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="nombre@example.com" required>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="nombre" placeholder="tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <input type="tel" class="form-control" id="tel" placeholder="tu telefono" required>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dejanos tu mensaje."></textarea>
+            </div>
+            <div class="mb-3">
+                <button type="button" class="btn btn-primary w100 fs-5">Enviar Mensaje</button>
+            </div>
+        </form>
+    </div>
+
+    
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>

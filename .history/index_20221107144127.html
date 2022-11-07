@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2da Pre Entrega</title>
+    <!-- ICON Web -->
+    <link rel="shortcut icon" href="IMG/logo_site.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link href="css/hover-min.css" rel="stylesheet">
+</head>
+
+<body class="container-fluid">
+    <!-- NAVBAR -->
+    <header class="encabezado">
+        <nav class="navbar navbar-dark bg-dark p-3">
+            <div class="container-fluid">
+                <a class="navbar-brand hvr-grow" href="index.html">Consultora <label for="NP" style="font-weight:bolder">NP</label></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="PAGES/sobrenosotros.html">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="PAGES/servicios.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Comunicacion Institucional</a></li>
+                                    <li><a class="dropdown-item" href="#">Branding</a></li>
+                                    <li><a class="dropdown-item" href="#">Consultoria</a></li>
+                                    <li><a class="dropdown-item" href="#">Comunicacion Politica</a></li>
+                                    <li><a class="dropdown-item" href="#">Identidad Digital</a></li>
+                                    <li><a class="dropdown-item" href="#">Prensa</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="PAGES/blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="PAGES/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="email" placeholder="Correo Electronico"
+                                aria-label="email">
+                            <button class="btn btn-primary btn-primary-outline-success"
+                                type="button">Suscribete</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SLIDES -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./IMG/slide1.jpeg" class="d-block w-100 img-fluid" alt="slide1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./IMG/slide2.jpeg" class="d-block w-100 img-fluid" alt="slide2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./IMG/slide3.jpeg" class="d-block w-100 img-fluid" alt="slide3">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- MAIN -->
+    <section class="w-50 mx-auto text-center pt-4" id="responsive">
+        <h1 class="pt-3 fs-2 border-top border-4">Una Consultora para incrementar las ventas y la productividad de tu
+            empresa. <br>
+            <span class="text-primary">Comunicamos tus ideas.</span>
+        </h1>
+
+        <p class="p-3 fs-5"><span class="text-primary">[ Consultora NP ]</span> Realizar una consultoría estratégica
+            representa para cualquier empresa una oportunidad para reorganizarse e introducir cambios clave en el
+            negocio.
+            Dada la enorme competencia que existe hoy en día en cualquier sector, diseñar las estrategias adecuadas se
+            vuelve más necesario que nunca para las empresas no solo para subsanar aquello que no funciona, sino también
+            para crecer y mejorar los procesos y dinámicas de la organización. </p>
+    </section>
+
+    <!-- SERVICIOS -->
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center d-flex justify-content-center">
+                <div data-aos="flip-up" class="card shadow-sm m-4" style="width: 18rem;">
+                    <img src="/IMG/1com-inst.png" class="card-img-top mx-auto" alt="Comunicacion-Institucional"
+                        style="width: 150px" style="height: 150px">
+                    <div class="card-body">
+                        <h5 class="card-title">Comunicacion Institucional</h5>
+                        <p class="card-text pAr" style="font-size: 10px">Comunicacion Institucional como una gestion
+                            estrategica que involucra a toda la actividad Institucional.</p>
+                        <a href="/PAGES/SUB_PAGES/com_inst.html" class="btn btn-primary m-3 d-flex justify-content-center align-items-center hvr-outline-in">Mas
+                            Info</a>
+                    </div>
+                </div>
+                <div data-aos="flip-down" class="card shadow-sm m-4" style="width: 18rem;">
+                    <img src="/IMG/2com-polit.png" class="card-img-top mx-auto" alt="Comunicacion-Politica"
+                        style="width: 150px" style="height: 150px">
+                    <div class="card-body">
+                        <h5 class="card-title">Comunicacion Politica</h5>
+                        <p class="card-text pAr" style="font-size: 10px">La comunicación política funciona como un
+                            proceso
+                            interactivo que puede dirigirse hacia dentro o hacia fuera. La característica que define a
+                            la comunicación política es la creación de narrativas significativas en la sociedad.</p>
+                        <a href="/PAGES/SUB_PAGES/com_politica.html" class="btn btn-primary m-3 d-flex justify-content-center align-items-center hvr-outline-in">Mas
+                            Info</a>
+                    </div>
+                </div>
+                <div data-aos="flip-up" class="card shadow-sm m-4" style="width: 18rem;">
+                    <img src="/IMG/5cons.png" class="card-img-top mx-auto" alt="Consultoria" style="width: 150px"
+                        style="height: 150px">
+                    <div class="card-body">
+                        <h5 class="card-title">Consultoria</h5>
+                        <p class="card-text pAr" style="font-size: 10px">Las áreas de actuación de un consultor de
+                            comunicación son diversas, ya que se incluye la comunicación corporativa, interna, de
+                            crisis, relaciones con los medios, con instituciones, publicidad, comunicación online, etc..
+                        </p>
+                        <a href="/PAGES/SUB_PAGES/consultoria.html" class="btn btn-primary m-3 d-flex justify-content-center align-items-center hvr-outline-in">Mas
+                            info</a>
+                    </div>
+                </div>
+                <div data-aos="flip-down" class="card shadow-sm m-4" style="width: 18rem;">
+                    <img src="/IMG/3des-marca.png" class="card-img-top mx-auto" alt="Comunicacion-Institucional"
+                        style="width: 150px" style="height: 150px">
+                    <div class="card-body">
+                        <h5 class="card-title">Branding</h5>
+                        <p class="card-text pAr" style="font-size: 10px">El branding hoy en día es imprescindible para
+                            que
+                            una marca pueda competir y sobrevivir a los continuos cambios que sufren los mercados y el
+                            comportamiento de los usuarios.</p>
+                        <a href="/PAGES/SUB_PAGES/branding.html" class="btn btn-primary m-3 d-flex justify-content-center align-items-center hvr-outline-in">Mas
+                            Info</a>
+                    </div>
+                </div>
+                <div data-aos="flip-up" class="card shadow-sm m-4" style="width: 18rem;">
+                    <img src="/IMG/3iden-dig.png" class="card-img-top mx-auto" alt="Comunicacion-Politica"
+                        style="width: 150px" style="height: 150px">
+                    <div class="card-body">
+                        <h5 class="card-title">Identidad-Digital</h5>
+                        <p class="card-text pAr" style="font-size: 10px">La identidad digital se distingue por ser de
+                            naturaleza social, puesto que esta se basa en la interrelación con el público y evoluciona
+                            constantemente debido a que todo el tiempo estamos creando nueva información.</p>
+                        <a href="/PAGES/SUB_PAGES/ident_dig.html" class="btn btn-primary m-3 d-flex justify-content-center align-items-center hvr-outline-in">Mas
+                            Info</a>
+                    </div>
+                </div>
+                <div data-aos="flip-down" class="card shadow-sm m-4" style="width: 18rem;">
+                    <img src="/IMG/4prensa.png" class="card-img-top mx-auto" alt="Consultoria" style="width: 150px"
+                        style="height: 150px">
+                    <div class="card-body">
+                        <h5 class="card-title">Prensa</h5>
+                        <p class="card-text pAr" style="font-size: 10px">Responder a los requerimientos de periodistas y
+                            comunicadores respecto a especialistas e investigadores de diferentes campos disciplinares
+                            de interés social.</p>
+                        <a href="/PAGES/SUB_PAGES/prensa.html" class="btn btn-primary m-3 d-flex justify-content-center align-items-center hvr-outline-in">Mas
+                            info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- INFO NOSOTROS -->
+        <section>
+            <div class="w-50 m-auto p-3 text-center">
+                <h1 class="mb-4 fs-2">Enfocados en ayudar a empresas permitiéndoles cumplir en normatividad y centrarse en sus negocios. <br><span data-aos="zoom-in-up" class="text-primary fs-3 fw-bolder">¿Quieres ayudarnos a conseguirlo trabajando con nosotros?</span></h1>
+            </div>
+            <div class="text-center pt-0">
+                <img class="img-thumbnail" src="/IMG/team.jpeg" alt="teamUp" width="550" height="300">
+            </div>
+        </section>
+
+
+
+        <!-- Bootstrap JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+/*     padding: 0;
+    margin: 0; */
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.encabezado {
+    border-top: solid 15px rgb(36, 60, 178);
+    border-bottom: solid 15px rgb(36, 60, 178);
+}
+
+/* NAVBAR ICON */
+.navbar-toggler-icon {
+    height: 20px;
+    width: 20px;
+}
+
+/* SLIDES */
+.img-fluid {
+    max-height: 39rem;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width:650px) {
+    #responsive, #teAm {
+        width: 80% !important;
+    }
+    .s-fila {
+        width: 90% !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        width: 80% !important;
+    }
+}
+
+/* CARDS */
+.pAr {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* HOOVER FIRST TEXT */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+}
+/* CARDS BUTTONS */
+.hvr-outline-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+}
+.hvr-outline-in:before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    border: #86a1fb solid 3px;
+    top: -16px;
+    right: -16px;
+    bottom: -16px;
+    left: -16px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top, right, bottom, left;
+    transition-property: top, right, bottom, left;
+}
+.hvr-outline-in:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -8px;
+    opacity: 2;
+}
