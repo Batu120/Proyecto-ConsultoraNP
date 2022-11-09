@@ -120,14 +120,6 @@ footer {
     background-color: #243cb2;
     min-height: 100px;    
 }
-footer p {
-    text-align: center;
-}
-#icons i {
-    font-size: 25px;
-    padding: 0 8px;
-    color: white;
-}
 /* CONTACT */
 
 /* #bg-contact {

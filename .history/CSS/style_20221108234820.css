@@ -123,10 +123,9 @@ footer {
 footer p {
     text-align: center;
 }
-#icons i {
-    font-size: 25px;
-    padding: 0 8px;
-    color: white;
+#icono i {
+    font-size: 20px;
+    padding: 0 8pc;
 }
 /* CONTACT */
 
