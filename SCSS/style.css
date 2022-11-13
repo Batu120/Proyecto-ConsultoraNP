@@ -1,0 +1,140 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.encabezado {
+  border-top: solid 15px #243cb2;
+  border-bottom: solid 15px #243cb2;
+}
+
+/* NAVBAR ICON */
+.navbar-toggler-icon {
+  height: 20px;
+  width: 20px;
+}
+
+#active {
+  color: #002bb8;
+}
+#active::after {
+  display: none;
+}
+
+/* SLIDES */
+.img-fluid {
+  max-height: 39rem;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 650px) {
+  #responsive, #teAm {
+    width: 80% !important;
+  }
+  .s-fila {
+    width: 90% !important;
+    text-align: center;
+  }
+  #bg-contact {
+    top: -110px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    width: 80% !important;
+  }
+}
+/* CARDS */
+.pAr {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+/* HOOVER FIRST TEXT */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  transform: scale(1.2);
+}
+
+/* CARDS BUTTONS */
+.hvr-outline-in {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-outline-in:before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  border: #86a1fb solid 3px;
+  top: -16px;
+  right: -16px;
+  bottom: -16px;
+  left: -16px;
+  opacity: 0;
+  transition-duration: 0.3s;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-in:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 2;
+}
+
+/* FOOTER */
+footer {
+  background-color: #243cb2;
+  min-height: 100px;
+}
+footer p {
+  text-align: center;
+}
+
+#icons i {
+  font-size: 25px;
+  padding: 0 8px;
+  color: white;
+}
+/* CONTACT */
+
+/* #bg-contact {
+    position: relative;
+    top: 130px;
+}
+#contacto {
+    background-color: ;
+    min-height: 400px;
+    position: relative;
+} */
+
+/*# sourceMappingURL=style.css.map */
