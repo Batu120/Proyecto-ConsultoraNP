@@ -1,10 +1,31 @@
 {
-  "name": "batu120",
+  "name": "sass",
   "version": "1.0.0",
-  "description": "proyecto_coder",
+  "description": "proyecto-coder",
   "main": "index.js",
+  "dependencies": {
+    "binary-extensions": "^2.2.0",
+    "chokidar": "^3.5.3",
+    "braces": "^3.0.2",
+    "fsevents": "^2.3.2",
+    "fill-range": "^7.0.1",
+    "glob-parent": "^5.1.2",
+    "immutable": "^4.1.0",
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "picomatch": "^2.3.1",
+    "is-number": "^7.0.0",
+    "readdirp": "^3.6.0",
+    "sass": "^1.56.1",
+    "to-regex-range": "^5.0.1",
+    "source-map-js": "^1.0.2",
+    "anymatch": "^3.1.2",
+    "normalize-path": "^3.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "sass"
   },
   "repository": {
     "type": "git",
