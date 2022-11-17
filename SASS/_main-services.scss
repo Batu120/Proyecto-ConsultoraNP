@@ -1,0 +1,27 @@
+/* CARDS */
+.pAr1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.pAr2 {
+    @extend .pAr1;
+}
+.pAr3 {
+    @extend .pAr1;
+}
+.pAr4 {
+    @extend .pAr1;
+}
+.pAr5 {
+    @extend .pAr1;
+}
+.pAr6 {
+    @extend .pAr1;
+}

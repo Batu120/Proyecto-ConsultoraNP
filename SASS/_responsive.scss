@@ -1,0 +1,22 @@
+@media only screen and (max-width: 650px) {
+    #responsive, #teAm {
+        width: 80% !important;
+    }
+    
+    .s-fila {
+        width: 90% !important;
+        text-align: center;
+    }
+    
+    #bg-contact {
+        top: -110px;
+        }
+    }
+    
+    @media only screen and (max-width: 1200px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        width: 80% !important;
+        }
+    }

@@ -1,0 +1,12 @@
+.navbar-toggler-icon {
+    height: 20px;
+    width: 20px;
+}
+
+#active {
+    color: $primary-color;
+
+&::after {
+    display: none;
+    }
+}
